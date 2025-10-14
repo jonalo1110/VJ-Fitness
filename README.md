@@ -3,9 +3,9 @@
 A responsive personal training website designed to showcase services, pricing, and contact information for a fitness professional.
 
 Built with HTML, CSS, Bootstrap, and JavaScript for a clean, modern, and mobile-friendly user experience.  
-Currently hosted on [GitHub Pages]([https://jonalo1110.github.io/VJFitness](https://jonalo1110.github.io/VJ-Fitness/)) with plans to move to a permanent custom domain.
+Currently hosted on [GitHub Pages]([[https://jonalo1110.github.io/VJFitness](https://jonalo1110.github.io/VJ-Fitness/)](https://jonalo1110.github.io/VJ-Fitness/)) with plans to move to a permanent custom domain.
 
-[![Live Site](Live_Demo-Visit_Site-blue)]([https://jonalo1110.github.io/VJFitness](https://jonalo1110.github.io/VJ-Fitness/))
+[![Live Site]([Live_Demo-Visit_Site-blue)]([https://jonalo1110.github.io/VJFitness](https://jonalo1110.github.io/VJ-Fitness/)](https://jonalo1110.github.io/VJ-Fitness/))
 ---
 
 ## Features
