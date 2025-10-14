@@ -6,8 +6,6 @@ Built with HTML, CSS, Bootstrap, and JavaScript for a clean, modern, and mobile-
 Currently hosted on [GitHub Pages](https://jonalo1110.github.io/VJ-Fitness/) with plans to move to a permanent custom domain.
 
 [![Live Site](https://img.shields.io/badge/Live_Demo-Visit_Site-blue)](https://jonalo1110.github.io/VJ-Fitness/)
-[![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub_Pages-black)](https://jonalo1110.github.io/VJ-Fitness/)
-[![Status](https://img.shields.io/badge/Status-Live-success)]()
 
 ---
 
