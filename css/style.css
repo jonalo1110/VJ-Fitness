@@ -1,4 +1,698 @@
-  .navbar {
-    background-color: #3984af; 
-    padding: 1rem;
-  }
+/* ===== NAVIGATION ===== */
+.navbar {
+    background-color: rgb(0, 0, 0);
+    padding: 15px 0px;
+}
+nav img{
+    margin: 0 30px;
+}
+.navbar .btn-cta{
+    margin-right: 2rem;
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #ececec !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar .nav-link {
+    margin-right: 60px;
+}
+
+.navbar .nav-link:hover {
+    color: #747474 !important;
+}
+
+.navbar .nav-link:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px #092029;
+    border-radius: 6px;
+}
+
+.navbar .navbar-toggler {
+    border-color: rgba(255, 255, 255, .25);
+}
+
+.navbar .navbar-toggler:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .35);
+}
+
+/* ===== BUTTONS ===== */
+.btn-cta {
+    background-color: #ECECEC;
+    color: #000000;
+    font-weight: 600;
+    padding: 0.65rem 1.15rem;
+    border: none;
+    border-radius: 999px;
+    line-height: 1.2;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.btn-cta:hover,
+.btn-cta:focus {
+    background-color: #303030;
+    color: #ffffff;
+}
+
+.btn-cta:active {
+    background-color: color-mix(in srgb, #0d1e66, #000 10%);
+    color: #ffffff;
+}
+
+/* ===== HERO SECTION ===== */
+.hero-screen {
+    background-color: #18171a;
+    padding: 2rem;
+}
+
+.hero-info {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-info h2,
+.hero-info p {
+    padding: 0 20px;
+}
+
+.hero-info .btn-cta {
+    display: inline-block;
+    margin: 0 20px 24px;
+}
+
+.hero-info h2 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 45px;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.hero-info p {
+    font-size: large;
+    font-family: "Mulish", system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    margin-bottom: 2rem;
+    opacity: .95;
+    color: #ffffff;
+}
+
+.hero-col {
+    background-image: url(../images/heroimg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+/* SERVICES LIST */
+.about-services-wrapper {
+    background: linear-gradient(to bottom, #d1d1d1 0%, #d1d1d1 10%, #4e4e4e 100%);
+}
+
+.features {
+    background: linear-gradient(to bottom, #18171a 0%, #18171a 10%, black 100%);
+    padding: 30px;
+}
+
+.features li {
+    font-size: large;
+    padding: 0 50px;
+    color: #ECECEC;
+}
+
+/* ===== ABOUT SECTION ===== */
+#about {
+    background-image: url(../images/aboutBack.jpg);
+    padding: 60px 0px;
+    position: relative;
+}
+
+#about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+#about .container {
+    position: relative;
+    z-index: 1;
+}
+
+.aboutinfo {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.aboutinfo h3{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+.aboutinfo h5{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.aboutinfo p,
+.aboutinfo ul {
+    font-size: large;
+    font-family: "Mulish", system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    margin-bottom: 1.5rem;
+    color: #ececec;
+    opacity: 0.95;
+}
+
+.aboutinfo ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.aboutinfo li {
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.aboutinfo li::before {
+    content: "✓";
+    color: #ECECEC;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* ===== SERVICES SECTION - TABBED PRICING ===== */
+#services {
+    background: linear-gradient(to bottom, #d1d1d1 0%, #d1d1d1 10%, #4e4e4e 100%);
+    padding: 4rem 0;
+}
+
+#services h3 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #000000;
+}
+
+/* Service Tabs */
+.service-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.tab-btn {
+    background: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex: 1;
+    max-width: 250px;
+    text-align: center;
+}
+
+.tab-btn:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+.tab-btn.active {
+    background: #000000;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Service Description */
+.service-description {
+    text-align: center;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-description h4 {
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.service-description p {
+    font-family: "Mulish", sans-serif;
+    font-size: 1.1rem;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Pricing Cards */
+.pricing-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.pricing-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    border: 2px solid transparent;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-card.popular {
+    border-color: #000000;
+    transform: scale(1.05);
+}
+
+.pricing-card.best-value {
+    border-color: #000000;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    transform: scale(1.05);
+}
+
+.pricing-card.popular:hover,
+.pricing-card.best-value:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+/* Popular Badge */
+.popular-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #000000;
+    color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Pricing Card Content */
+.pricing-card h5 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.pricing-card .price {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.pricing-card .price span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+}
+
+.pricing-card .total {
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    color: #666666;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+/* Features List */
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    text-align: left;
+}
+
+.pricing-card li {
+    font-family: "Mulish", sans-serif;
+    padding: 0.5rem 0;
+    color: #333333;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.pricing-card li:before {
+    content: "✓";
+    color: #000000;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Service Button */
+.pricing-card .btn-service {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Mulish", sans-serif;
+    transition: all 0.3s ease;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.pricing-card .btn-service:hover {
+    background-color: #333333;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== ENHANCED BOOKING SECTION ===== */
+#book-session {
+    background: linear-gradient(135deg, #000000 0%, #292829 100%);
+    color: white;
+}
+
+.booking-card-enhanced {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.booking-info {
+    background: linear-gradient(135deg, #000000 0%, #18171a 100%);
+    color: white;
+    padding: 3rem 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.booking-content h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.booking-content .lead {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.benefits-list {
+    margin: 2rem 0;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.benefit-item i {
+    color: #ECECEC;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.contact-info {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info i {
+    margin-right: 0.75rem;
+    width: 20px;
+    color: #ECECEC;
+}
+
+.booking-form {
+    padding: 3rem 2.5rem;
+}
+
+.booking-form h3 {
+    font-family: "Oswald", sans-serif;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.form-subtitle {
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+}
+
+.form-group {
+    position: relative;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    z-index: 2;
+}
+
+.input-with-icon .form-control,
+.input-with-icon .form-select {
+    padding-left: 3rem;
+}
+
+.input-with-icon textarea.form-control {
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+/* Floating Labels Alternative */
+.form-floating .form-control:focus ~ label,
+.form-floating .form-control:not(:placeholder-shown) ~ label {
+    color: #000000;
+    font-weight: 500;
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+    color: #666;
+}
+
+/* Modern Card Style */
+.booking-card-modern {
+    background: #ffffff;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 992px) {
+    .navbar .nav-link {
+        margin-right: 24px;
+    }
+
+    .pricing-cards {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .pricing-card.popular,
+    .pricing-card.best-value {
+        transform: scale(1);
+    }
+    
+    .pricing-card.popular:hover,
+    .pricing-card.best-value:hover {
+        transform: translateY(-5px);
+    }
+        .booking-info {
+        padding: 2rem 1.5rem;
+    }
+    
+    .booking-form {
+        padding: 2rem 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tab-btn {
+        max-width: 300px;
+        width: 100%;
+    }
+    
+    .pricing-cards {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+    }
+    
+    .service-description {
+        padding: 0 1rem;
+    }
+    
+    .service-description h4 {
+        font-size: 24px;
+    }
+    
+    .service-description p {
+        font-size: 1rem;
+    }
+
+    #services {
+        padding: 3rem 0;
+    }
+        .booking-card-enhanced {
+        margin: 0 1rem;
+    }
+    
+    .booking-card-modern {
+        padding: 2rem 1.5rem;
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar .nav-link {
+        margin-right: 16px;
+        font-size: 16px;
+    }
+
+    .hero-info {
+        padding: 1.25rem;
+        border-radius: 12px;
+    }
+
+    .btn-cta,
+    .btn-cta--light {
+        width: 100%;
+    }
+
+    .hero-info .btn-cta {
+        display: block;
+        text-align: center;
+        margin: 0 auto 24px;
+        width: 80%;
+    }
+
+    #services h3 {
+        font-size: 28px;
+        margin-bottom: 2rem;
+    }
+
+    .pricing-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .pricing-card h5 {
+        font-size: 1.3rem;
+    }
+    
+    .pricing-card .price {
+        font-size: 2rem;
+    }
+    
+    .popular-badge {
+        font-size: 0.75rem;
+        padding: 0.4rem 1rem;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+footer {
+    background-color: #000;
+    color: #ECECEC;
+    padding: 2rem 0;
+    text-align: center;
+}
