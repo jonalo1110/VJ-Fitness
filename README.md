@@ -3,9 +3,12 @@
 A responsive personal training website designed to showcase services, pricing, and contact information for a fitness professional.
 
 Built with HTML, CSS, Bootstrap, and JavaScript for a clean, modern, and mobile-friendly user experience.  
-Currently hosted on [GitHub Pages]([[https://jonalo1110.github.io/VJFitness](https://jonalo1110.github.io/VJ-Fitness/)](https://jonalo1110.github.io/VJ-Fitness/)) with plans to move to a permanent custom domain.
+Currently hosted on [GitHub Pages](https://jonalo1110.github.io/VJ-Fitness/) with plans to move to a permanent custom domain.
 
-[![Live Site]([Live_Demo-Visit_Site-blue)]([https://jonalo1110.github.io/VJFitness](https://jonalo1110.github.io/VJ-Fitness/)](https://jonalo1110.github.io/VJ-Fitness/))
+[![Live Site](https://img.shields.io/badge/Live_Demo-Visit_Site-blue)](https://jonalo1110.github.io/VJ-Fitness/)
+[![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub_Pages-black)](https://jonalo1110.github.io/VJ-Fitness/)
+[![Status](https://img.shields.io/badge/Status-Live-success)]()
+
 ---
 
 ## Features
@@ -25,5 +28,6 @@ Currently hosted on [GitHub Pages]([[https://jonalo1110.github.io/VJFitness](htt
 ---
 
 ## Live Demo
-[Visit the Live Site]([https://jonalo1110.github.io/VJFitness](https://jonalo1110.github.io/VJ-Fitness/))  
+[Visit the Live Site](https://jonalo1110.github.io/VJ-Fitness/)  
 Currently hosted on GitHub Pages. Custom domain coming soon.
+
